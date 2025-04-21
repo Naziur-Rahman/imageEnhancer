@@ -5,8 +5,8 @@ import { Outlet } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
-      <ImagePreview></ImagePreview>
       <ImageUpload></ImageUpload>
+      <ImagePreview></ImagePreview>
     </div>
   )
 }
